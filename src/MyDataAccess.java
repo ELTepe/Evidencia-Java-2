@@ -18,7 +18,7 @@ public class MyDataAccess {
             conn = DriverManager.getConnection(_url, _usuario, _pwd);
             System.out.println("Conexión exitosa a la base de datos.");
         } catch (Exception e) {
-            System.out.println("Error en la conexión: " + e.getMessage());
+            System.out.println("Error en la conexión:........ " + e.getMessage());
         }
     }
 
